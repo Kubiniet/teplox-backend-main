@@ -7,7 +7,7 @@ try:
 except ImportError:
     from typing_extensions import Literal
 
-from backend.domain.substance import Substance
+from domain.substance import Substance
 
 
 @dataclass

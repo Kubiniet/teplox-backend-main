@@ -5,10 +5,10 @@ from typing import List
 from typing_extensions import Self
 
 
-from backend.domain.exchanger import HeatExchanger,MeasuresHeater,MeasuresCooler
-from backend.domain.calculator import PostCalc, PreliminarCalc
+from domain.exchanger import HeatExchanger,MeasuresHeater,MeasuresCooler
+from domain.calculator import PostCalc, PreliminarCalc
 
-from backend.repository.get_df import GetDF
+from repository.get_df import GetDF
 
 class Heaters:
     def __init__(self,precalc:PreliminarCalc) -> None:

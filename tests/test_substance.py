@@ -1,7 +1,7 @@
-from backend.domain.substance import Substance
-from backend.domain.exchanger import HeatExchanger
-from backend.domain.calculator import PreliminarCalc, PostCalc
-from backend.usecases.get_heatexchanger_by_area import Heaters
+from domain.substance import Substance
+from domain.exchanger import HeatExchanger
+from domain.calculator import PreliminarCalc, PostCalc
+from usecases.get_heatexchanger_by_area import Heaters
 
 
 def main():
