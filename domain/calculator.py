@@ -4,8 +4,8 @@ from dataclasses import dataclass,field
 
 import math
 
-from backend.domain.substance import Substance
-from backend.domain.exchanger import HeatExchanger
+from domain.substance import Substance
+from domain.exchanger import HeatExchanger
 
 
 @dataclass
